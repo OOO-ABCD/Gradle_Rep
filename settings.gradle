@@ -1,2 +1,5 @@
 rootProject.name = 'Gradle_project'
+include 'ModuleA'
+include 'src:main:ModuleA'
+findProject(':src:main:ModuleA')?.name = 'ModuleA'
 

@@ -1,8 +1,13 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-group = 'org.example'
+application {
+    mainClass = 'src/main/java/HelloWorld.java'
+}
+
+group = 'org.education'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -10,6 +15,10 @@ repositories {
 }
 
 dependencies {
+    // Lombok
+    compileOnly("org.projectlombok:lombok:1.18.38")
+    annotationProcessor("org.projectlombok:lombok:1.18.38")
+
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
@@ -17,3 +26,56 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+println('Hello From Groovy')
+
+task greetingTask {
+    group 'greetingGroup'
+    description 'Custom greeting task for Gradle'
+
+    doLast {
+        println('Hello From Groovy Task Last')
+    }
+    println('Hello From Groovy Task')
+    doFirst {
+        println('Hello From Groovy Task First')
+    }
+}
+
+class PrintLanguageVersion extends DefaultTask {
+
+    @Input
+    String language;
+
+    @TaskAction
+    void printLanguageVersion() {
+        switch (language) {
+            case 'java':
+                println System.getProperty("java.version")
+                break
+            case 'groovy':
+                println GroovySystem.version
+                break
+        }
+    }
+}
+
+task printProgrammingLanguageVersion(type: PrintLanguageVersion) {
+    group 'languageVersion'
+    description 'print version'
+
+    language = 'java'
+}
+
+
+class CreateFile extends DefaultTask {
+
+    @TaskAction
+    void actionWithFile() {
+        def file = new File("groovyFile.txt")
+        file.createNewFile()
+        file.text = 'HELLO FROM GROOVY TASK!'
+    }
+}
+
+tasks.register("createFile", CreateFile)
