@@ -6,13 +6,14 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 public class PutRequest {
     public static void main(String[] args) {
+
         given()
                 .baseUri("https://api.restful-api.dev")
                 .contentType("application/json")
                 .body("{\n" +
-                        "   \"name\": \"Apple12 MacBook MiniPro5654 216\",\n" +
+                        "   \"name\": \"Apple101 MacBook MiniPro5654 256\",\n" +
                         "   \"data\": {\n" +
-                        "      \"year\": 1990,\n" +
+                        "      \"year\": 1991,\n" +
                         "      \"price\": 2234.12,\n" +
                         "      \"CPU model\": \"Intel Core i11\",\n" +
                         "      \"Hard disk size\": \"128 GB\",\n" +
@@ -20,7 +21,7 @@ public class PutRequest {
                         "   }\n" +
                         "}"  )
                 .when()
-                .put("/objects/ff808181932badb60196bec4a8d470c9")
+                .put("/objects/ff808181932badb60196c4198bfe798a")
                 .then()
                 .statusCode(200)
                 .body(matchesJsonSchemaInClasspath("update-schema.json"));

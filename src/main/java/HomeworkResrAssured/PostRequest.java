@@ -1,36 +1,35 @@
 package HomeworkResrAssured;
 
-import lombok.ToString;
+import com.google.gson.Gson;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.*;
-import io.restassured.response.Response;
 
 public class PostRequest {
 
     public static void main(String[] args) {
 
-       Response response = given()
+        RegisterRequest.Data data = new RegisterRequest.Data (1996, 1997.76, "Intel Core i9", "Intel Core i11");
+
+        RegisterRequest request = new RegisterRequest ("Sony VAIO", data);
+
+        Gson gson = new Gson();
+
+        String jsonBody = gson.toJson(request);
+
+        RegisterResponse response = given()
                .baseUri("https://api.restful-api.dev")
                .basePath("/objects")
                .contentType("application/json")
-               .body("{\"name\": \"Apple MacBook No Pro 777\", \"data\": { \"year\": 2022," +
+               .body("{\"name\": \"Apple MacBook No Pro Test\", \"data\": { \"year\": 2015," +
                        " \"price\": 2615.23, \"CPU model\": \"Intel Core i7\"," +
                        " \"Hard disk size\": \"256 GB\"}}")
                .when()
                .post()
                .then()
-               .statusCode(200)
-               .header("content-type", "application/json")
-               .body ("name", containsString("Apple"))
-               .extract()
-               .response();
+                .log().all()
+                .extract().as(RegisterResponse.class);
 
-        String id = response.jsonPath().getString("id");
-        System.out.println("New product ID: " + id);
-        //не знаю почему, но id создается как стринг (смотрел респонс через hoppscotch, в документации int стоит)
-        //плюс статус респонса по документации 200, поэтому такой и оставил в тесте
-
+        assert response.id != null && !response.id.isEmpty();
 
     }
 

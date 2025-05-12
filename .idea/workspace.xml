@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2cb4aa5f-f186-4714-94d2-b893fd8c2c56" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/DeleteRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/GetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PostRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PutRequest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ModuleA">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Gradle_project" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Gradle_project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Gradle_project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Gradle_project" type="f1a62948:ProjectNode" />
+                <item name="ModuleA" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kandyb90&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OOO-ABCD/Gradle_Rep.git&quot;,
+    &quot;accountId&quot;: &quot;4d5f5c85-91ca-481a-ae4d-4801e7c711b9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2wlSpSxmRSbqMXiHEgZi7bQzmQL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Case1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:HomeworkResrAssured.Case1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:HomeworkResrAssured.DeleteRequest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:HomeworkResrAssured.GetRequest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:HomeworkResrAssured.PostRequest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:HomeworkResrAssured.PutRequest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:Lesson_24.HelloWorld.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:Lesson_24.PersonRunner.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:org.example.HelloWorld.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [:org.example.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [createFile].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [greetingTask].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [model].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Gradle_project [printProgrammingLanguageVersion].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Reverting in Lesson__25&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/IdeaProjects/Gradle_project&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/hp/IdeaProjects/Gradle_project/src/main/ModuleA/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.DeleteRequest">
+    <configuration name="Case1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestAssured.Case1" />
+      <module name="Gradle_project.src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkResrAssured.DeleteRequest" />
+      <module name="Gradle_project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkResrAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkResrAssured.GetRequest" />
+      <module name="Gradle_project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkResrAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkResrAssured.PostRequest" />
+      <module name="Gradle_project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkResrAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkResrAssured.PutRequest" />
+      <module name="Gradle_project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkResrAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DeleteRequest" />
+        <item itemvalue="Application.PutRequest" />
+        <item itemvalue="Application.PostRequest" />
+        <item itemvalue="Application.GetRequest" />
+        <item itemvalue="Application.Case1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cb4aa5f-f186-4714-94d2-b893fd8c2c56" name="Changes" comment="" />
+      <created>1746614853803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746614853803</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Lesson_25" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson_24/HelloWorld.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/ModuleA/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

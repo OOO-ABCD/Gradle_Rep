@@ -21,10 +21,6 @@ public class GetRequest {
                 .body("data.year", equalTo(2019))
                 .body("data.\"CPU model\"", matchesPattern(".*i9$"));
 
-
     }
-
-
-
 
 }
