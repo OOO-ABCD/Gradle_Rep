@@ -5,19 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cb4aa5f-f186-4714-94d2-b893fd8c2c56" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/DeleteRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PostRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeworkResrAssured/DeleteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeworkResrAssured/GetRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeworkResrAssured/PostRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeworkResrAssured/PutRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeworkResrAssured/RegisterRequest$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeworkResrAssured/RegisterRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeworkResrAssured/RegisterResponse$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HomeworkResrAssured/RegisterResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DeleteRequest.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/PutRequest.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkRestAssured/DeleteRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkRestAssured/GetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkRestAssured/PostRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/PutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkRestAssured/PutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkRestAssured/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkResrAssured/RegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkRestAssured/RegisterResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,36 +110,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Case1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:HomeworkResrAssured.Case1.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:HomeworkResrAssured.DeleteRequest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:HomeworkResrAssured.GetRequest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:HomeworkResrAssured.PostRequest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:HomeworkResrAssured.PutRequest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:Lesson_24.HelloWorld.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:Lesson_24.PersonRunner.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:org.example.HelloWorld.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [:org.example.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [createFile].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [greetingTask].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [model].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle_project [printProgrammingLanguageVersion].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Reverting in Lesson__25&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/IdeaProjects/Gradle_project&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/hp/IdeaProjects/Gradle_project/src/main/ModuleA/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Case1.executor": "Run",
+    "Gradle.Gradle_project [:HomeworkResrAssured.Case1.main()].executor": "Run",
+    "Gradle.Gradle_project [:HomeworkResrAssured.DeleteRequest.main()].executor": "Run",
+    "Gradle.Gradle_project [:HomeworkResrAssured.GetRequest.main()].executor": "Run",
+    "Gradle.Gradle_project [:HomeworkResrAssured.PostRequest.main()].executor": "Run",
+    "Gradle.Gradle_project [:HomeworkResrAssured.PutRequest.main()].executor": "Run",
+    "Gradle.Gradle_project [:HomeworkRestAssured.PostRequest.main()].executor": "Run",
+    "Gradle.Gradle_project [:Lesson_24.HelloWorld.main()].executor": "Run",
+    "Gradle.Gradle_project [:Lesson_24.PersonRunner.main()].executor": "Run",
+    "Gradle.Gradle_project [:org.example.HelloWorld.main()].executor": "Run",
+    "Gradle.Gradle_project [:org.example.Main.main()].executor": "Run",
+    "Gradle.Gradle_project [build].executor": "Run",
+    "Gradle.Gradle_project [createFile].executor": "Run",
+    "Gradle.Gradle_project [dependencies].executor": "Run",
+    "Gradle.Gradle_project [greetingTask].executor": "Run",
+    "Gradle.Gradle_project [model].executor": "Run",
+    "Gradle.Gradle_project [printProgrammingLanguageVersion].executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Lesson__25",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hp/IdeaProjects/Gradle_project",
+    "onboarding.tips.debug.path": "C:/Users/hp/IdeaProjects/Gradle_project/src/main/ModuleA/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
-  <component name="RunManager" selected="Application.DeleteRequest">
+}]]></component>
+  <component name="RunManager" selected="Application.PostRequest">
     <configuration name="Case1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RestAssured.Case1" />
       <module name="Gradle_project.src" />
@@ -142,11 +155,11 @@
       </method>
     </configuration>
     <configuration name="DeleteRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkResrAssured.DeleteRequest" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkRestAssured.DeleteRequest" />
       <module name="Gradle_project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkResrAssured.*" />
+          <option name="PATTERN" value="HomeworkRestAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +168,11 @@
       </method>
     </configuration>
     <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkResrAssured.GetRequest" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkRestAssured.GetRequest" />
       <module name="Gradle_project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkResrAssured.*" />
+          <option name="PATTERN" value="HomeworkRestAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +181,11 @@
       </method>
     </configuration>
     <configuration name="PostRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkResrAssured.PostRequest" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkRestAssured.PostRequest" />
       <module name="Gradle_project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkResrAssured.*" />
+          <option name="PATTERN" value="HomeworkRestAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +194,11 @@
       </method>
     </configuration>
     <configuration name="PutRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkResrAssured.PutRequest" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkRestAssured.PutRequest" />
       <module name="Gradle_project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkResrAssured.*" />
+          <option name="PATTERN" value="HomeworkRestAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

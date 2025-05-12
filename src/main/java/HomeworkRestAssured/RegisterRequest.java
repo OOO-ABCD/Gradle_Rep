@@ -1,4 +1,4 @@
-package HomeworkResrAssured;
+package HomeworkRestAssured;
 
 public class RegisterRequest {
     public String name;
