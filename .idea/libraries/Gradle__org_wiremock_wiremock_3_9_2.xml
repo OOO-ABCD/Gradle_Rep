@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wiremock:wiremock:3.9.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.wiremock" artifactId="wiremock" version="3.9.2" baseVersion="3.9.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wiremock/wiremock/3.9.2/cba5fc1ed6ea01550fed182770069d0c3c85d55/wiremock-3.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

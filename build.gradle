@@ -34,6 +34,15 @@ dependencies {
     //jsonSchemaValidator
     implementation 'io.rest-assured:json-schema-validator:5.2.1'
 
+    //WireMock
+    implementation 'org.wiremock:wiremock:3.9.2'
+
+    //Hikari
+    implementation 'com.zaxxer:HikariCP:5.0.1'
+
+    //JDBC
+    implementation 'org.xerial:sqlite-jdbc:3.43.2.1'
+
 
 }
 
