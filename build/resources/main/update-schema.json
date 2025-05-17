@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "integer"
+        },
+        "price": {
+          "type": "number"
+        },
+        "CPU model": {
+          "type": "string"
+        },
+        "Hard disk size": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        }
+      },
+      "required": ["year", "price", "CPU model", "Hard disk size", "color"]
+    }
+  },
+  "required": ["id", "name", "updatedAt", "data"]
+}

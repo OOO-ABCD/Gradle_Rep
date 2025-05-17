@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: net.javacrumbs.json-unit:json-unit-core:2.40.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.javacrumbs.json-unit" artifactId="json-unit-core" version="2.40.1" baseVersion="2.40.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.javacrumbs.json-unit/json-unit-core/2.40.1/a7aa8b033c3937ad24d367702527b883027a5756/json-unit-core-2.40.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
