@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClass = 'src/main/java/HelloWorld.java'
+    mainClass = 'src/main/java/Lesson_24/HelloWorld.java'
 }
 
 group = 'org.education'
