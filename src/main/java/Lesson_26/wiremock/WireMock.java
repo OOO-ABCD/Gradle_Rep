@@ -15,19 +15,19 @@ public class WireMock {
         String url = "http://localhost:8080";
         String jsonBody = "{ \"method\": \"POST\", \"status\": 201, \"id\": 2," +
                 "\"phone\": \"Samsung\", \"Model\": \"Galaxy\", \"Condition\": \"Used\" }";
-
         stubFor(get(urlPathEqualTo("/api/gadgets/phones/1"))
-
                 .willReturn(aResponse()
                         .withStatus(200)
                         .withHeader("Content-Type", "application/json")
-                        .withBody("{ \"id\" : 1, \"phone\" : \"Iphone\", \"model\" : \"15 Pro\", \"condition\" : \"New\"}")));
+                        .withBody("{ \"id\" : 1, \"phone\" : \"Iphone\", \"model\" : \"15 Pro\"," + "\"condition\" : \"New\"}")));
+
         given()
                 .baseUri(url)
                 .queryParam("model", "15 Pro")
                 .header("Authorization", "GetToken")
                 .when()
                 .get("/api/gadgets/phones/1");
+
         verify(getRequestedFor(urlPathEqualTo("/api/gadgets/phones/1"))
                 .withQueryParam("model", equalTo("15 Pro"))
                 .withHeader("Authorization", equalTo("GetToken")));
@@ -53,9 +53,7 @@ public class WireMock {
 
         verify(1, postRequestedFor(urlPathEqualTo("/api/gadgets/phones")));
 
-
         stubFor(put(urlPathEqualTo("/api/gadgets/phones"))
-
                 .withHeader("Content-Type", containing("application/json"))
                 .withHeader("Authorization", equalTo("PutToken"))
                 .withRequestBody(containing("\"Updated successfully\":true"))
@@ -71,11 +69,10 @@ public class WireMock {
                 .body("{\"Updated successfully\":true}")
                 .when()
                 .put("/api/gadgets/phones");
+
         verify(putRequestedFor(urlPathEqualTo("/api/gadgets/phones")));
 
-
         stubFor(delete(urlPathEqualTo("/api/gadgets/phones/Samsung"))
-
                 .withHeader("Authorization", containing("DeleteToken"))
 
                 .willReturn(aResponse()
@@ -83,10 +80,11 @@ public class WireMock {
                         .withHeader("Content-Type", "application/json")
                         .withBody("{\"method\":\"DELETE\",\"status\":200}")
                         .withUniformRandomDelay(250, 400)));
+
         given()
                 .baseUri(url)
                 .when()
-                .header("Authorization","DeleteToken")
+                .header("Authorization", "DeleteToken")
                 .delete("/api/gadgets/phones/Samsung");
 
         verify(deleteRequestedFor(urlPathEqualTo("/api/gadgets/phones/Samsung"))
