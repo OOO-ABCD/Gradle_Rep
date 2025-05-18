@@ -15,6 +15,7 @@ public class WireMock {
         String url = "http://localhost:8080";
         String jsonBody = "{ \"method\": \"POST\", \"status\": 201, \"id\": 2," +
                 "\"phone\": \"Samsung\", \"Model\": \"Galaxy\", \"Condition\": \"Used\" }";
+        
         stubFor(get(urlPathEqualTo("/api/gadgets/phones/1"))
                 .willReturn(aResponse()
                         .withStatus(200)
