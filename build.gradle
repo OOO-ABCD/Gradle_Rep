@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClass = 'src/main/java/Lesson_24/HelloWorld.java'
+    mainClass = 'src/main/java/HelloWorld.java'
 }
 
 group = 'org.education'
@@ -21,6 +21,20 @@ dependencies {
 
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    //Rest Assured
+    implementation 'io.rest-assured:rest-assured:5.2.1'
+
+    //GSON
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    //Json path
+    implementation 'io.rest-assured:json-path:5.2.1'
+
+    //jsonSchemaValidator
+    implementation 'io.rest-assured:json-schema-validator:5.2.1'
+
+
 }
 
 test {
