@@ -91,6 +91,7 @@ public class WireMock {
         verify(deleteRequestedFor(urlPathEqualTo("/api/gadgets/phones/Samsung"))
                 .withHeader("Authorization", equalTo("DeleteToken")));
 
+
         wireMockServer.stop();
 
     }
