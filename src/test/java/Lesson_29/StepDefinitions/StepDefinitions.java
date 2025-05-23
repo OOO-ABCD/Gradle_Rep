@@ -16,13 +16,13 @@ public class StepDefinitions {
     boolean isResponseValid = true;
 
     @Given("задан знак зодиака {string}")
-    public void заданЗнакЗодиака(String sign) {
+    public void giveZodiacSign(String sign) {
         zodiac = sign;
         System.out.println("Знак зодиака: " + sign);
     }
 
     @When("я отправляю запрос на гороскоп для этого знака")
-    public void яОтправляюЗапросНаГороскопДляЭтогоЗнака() {
+    public void zodiacSignRequest() {
         response = given()
                 .baseUri("https://ohmanda.com")
                 .basePath("/api/horoscope/" + zodiac)
@@ -42,7 +42,7 @@ public class StepDefinitions {
     }
 
     @Then("статус ответа должен быть {int}")
-    public void статусОтветаДолженБыть(int status) {
+    public void responseStatusCheck(int status) {
         int statusCode = response.getStatusCode();
         if (!isResponseValid) {
             return;
@@ -53,7 +53,7 @@ public class StepDefinitions {
     }
 
     @Then("в ответе поле \"sign\" должно быть равно {string}")
-    public void вОтветеПолеДолжноБытьРавно(String expected) {
+    public void responseSignCheck(String expected) {
         if (!isResponseValid) {
             return;
         }
@@ -65,7 +65,7 @@ public class StepDefinitions {
     }
 
     @Then("в ответе должна быть сегодняшняя дата в поле \"date\"")
-    public void вОтветеДолжнаБытьСегодняшняяДатавПоле() {
+    public void responseDateCheck() {
         if (!isResponseValid) {
             return;
         }
