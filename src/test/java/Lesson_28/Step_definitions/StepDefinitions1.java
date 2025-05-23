@@ -15,12 +15,12 @@ public class StepDefinitions1 {
 
     @Given("в корзине есть следующие товары")
     public void в_корзине_есть_следующие_товары(DataTable DataTable) {
-        List<Map<String, String>> товары = DataTable.asMaps(String.class, String.class);
+        List<Map<String, String>> goods = DataTable.asMaps(String.class, String.class);
         System.out.println("Товары в корзине:");
-        for (Map<String, String> товар : товары) {
-            System.out.println("Название: " + товар.get("Название"));
-            System.out.println("Цена: " + товар.get("Цена"));
-            System.out.println("Количество: " + товар.get("Количество"));
+        for (Map<String, String> item : goods) {
+            System.out.println("Название: " + item.get("Название"));
+            System.out.println("Цена: " + item.get("Цена"));
+            System.out.println("Количество: " + item.get("Количество"));
             System.out.println("---------------");
         }
     }
