@@ -22,25 +22,25 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 
-    //Rest Assured
+    // Rest Assured
     implementation 'io.rest-assured:rest-assured:5.2.1'
 
-    //GSON
+    // GSON
     implementation 'com.google.code.gson:gson:2.10.1'
 
-    //Json path
+    // Json path
     implementation 'io.rest-assured:json-path:5.2.1'
 
-    //jsonSchemaValidator
+    // jsonSchemaValidator
     implementation 'io.rest-assured:json-schema-validator:5.2.1'
 
-    //WireMock
+    // WireMock
     implementation 'org.wiremock:wiremock:3.9.2'
 
-    //Hikari
+    // Hikari
     implementation 'com.zaxxer:HikariCP:5.0.1'
 
-    //JDBC
+    // JDBC
     implementation 'org.xerial:sqlite-jdbc:3.43.2.1'
 
     // Postgres
@@ -70,7 +70,9 @@ dependencies {
     // AssertJ
     testImplementation 'org.assertj:assertj-core:3.27.3'
 
-
+    // Cucumber
+    testImplementation("io.cucumber:cucumber-java:7.22.1")
+    testImplementation("io.cucumber:cucumber-junit:7.22.1")
 }
 
 test {
